@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     let timer;
     let isRunning = false;
-    let remainingTime = 1500; // 25 minutes in seconds
+    let remainingTime = 300; // 5 minutes in seconds
 
     const timeLeftDisplay = document.getElementById("time-left");
     const startStopBtn = document.getElementById("start-stop-btn");
